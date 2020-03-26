@@ -16,7 +16,7 @@ body {
     width: 300px;
     height: 200px;
     padding: 12px;
-    font-size: 1.5em;
+    font-size: 0.5em;
     box-shadow: 6px 6px 5px #888888;
     background-color: white;
     z-index: 999;
@@ -63,7 +63,7 @@ li.draggable {
 }
 
 .cell.small-font .swappable > div, .cell.small-font .draggable-small > div {
-    font-size: 0.8em;
+    font-size: 0.3em;
     line-height: 1em;
 }
 
@@ -78,7 +78,7 @@ li.draggable {
 p.card-counter {
     margin-top: 10px;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 0.5em;
 }
 
 /* bootstrap tooltip */
@@ -99,7 +99,7 @@ p.card-counter {
 .sorted-statements p.heading {
     margin-bottom: 5px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 0.5em;
     font-weight: bolder;
 }
 
@@ -194,7 +194,7 @@ div.disagree, li.disagree {
 
 #step4 div.comment-heading {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 0.5em;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -214,7 +214,7 @@ div.disagree, li.disagree {
     width: 100%;
     min-height: 70px;
     padding: 5px;
-    font-size: 1em;
+    font-size: 0.3em;
     box-shadow: 6px 6px 5px #888888;
 }
 
