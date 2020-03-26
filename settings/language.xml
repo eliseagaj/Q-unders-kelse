@@ -25,69 +25,69 @@
 <language version="1.0" htmlParse="true">
 
   <!-- misc -->
-  <item id="btnContinue">Continue...</item>
-  <item id="btnclose">Close</item>
-  <item id="btnHelp">Help me!</item>
-  <item id="btnAgreement">Agree</item>
-  <item id="btnNeutral">Neutral</item>
-  <item id="btnDisagreement">Disagree</item>
+  <item id="btnContinue">Fortsett...</item>
+  <item id="btnclose">Lukk</item>
+  <item id="btnHelp">Help meg!</item>
+  <item id="btnAgreement">Mest lik meg</item>
+  <item id="btnNeutral">Nøytral</item>
+  <item id="btnDisagreement">Minst lik meg</item>
   <item id="btnTransfer">Submit data</item>
   <item id="btnMail">Send via email</item>
   <item id="btnPrint">Print data</item>
   <item id="btnExit">Exit</item>
-  <item id="selectItem">Please select...</item>
+  <item id="selectItem">Vennligst velg...</item>
 
   <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
-  <item id="leaveSiteWarning">Your answers will be lost.</item>
+  <item id="leaveSiteWarning">Din besvarelse kan forsvinne.</item>
 
   <!-- HtmlQ only: In-App Back Button -->
-  <item id="backButton">Back</item>
-  <item id="fillInRequiredFields">Please fill in all required fields.</item>
+  <item id="backButton">Tilbake</item>
+  <item id="fillInRequiredFields">Vennligst fyll inn alle rutene.</item>
 
   <!-- errors -->
   <item id="errorHead">Error!</item>
-  <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+  <item id="errorWindowTooSmall">Vennligst maksimerer browseren for å bruke denne applikasjonen.</item>
 
   <!-- welcome screen (leave blank to skip screen) -->
-  <item id="welcomeHead">Welcome!</item>
-  <item id="welcomeText">Please note: This is just a demo and no data will be stored. Thanks to Job van Exel, that we can use his survey as an example.{br}{br}Comments and bug reports are highly welcome.{br}{br}Please click on the continue-button.</item>
+  <item id="welcomeHead">Velkommen!</item>
+  <item id="welcomeText">Noter: Dette er bare en demo og svarene vil ikke bli lagret. Thanks to Job van Exel, that we can use his survey as an example.{br}{br}Comments and bug reports are highly welcome.{br}{br}Please click on the continue-button.</item>
 
   <!-- user login, only displayed if access is restricted (see config-file) -->
   <item id="loginHead">User code</item>
-  <item id="loginText">Please enter your user code. Please note, that in this demo any user code will be accepted.{br}{br}{i}Tip: This is an optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="loginText">Vennligst skriv inn user code. Noter at i denne demoen vil alle user kode bli akseptert.{br}{br}{i}Tip: This is an optional step and you can deactivate it in your own survey.{i}</item>
   <item id="loginFormHeader">User code</item>
   <item id="loginNoInput">Please insert your user code.</item>
   <item id="loginInvalidInput">User code invalid</item>
   <item id="loginNoConnection">Connection to server failed. Please try again.</item>
 
   <!-- introduction (leave blank to skip popup) -->
-  <item id="introHead">Introduction</item>
-  <item id="introText">This study is about travel behaviour. We are interested in your attitude towards car and public transport as travel alternatives for middle-distance trips.{br}{br}Please maximize your browser window and click on the continue-button to start the survey.</item>
+  <item id="introHead">Introduksjon</item>
+  <item id="introText">Denne studien er om opplevelse av din karrier.{br}{br}Vennligst maksimerer browseren.</item>
 
   <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
-  <item id="step1Head">Step 1 of 5</item>
-  <item id="step1Text">Read the folowing statements carefully and split them up into three piles: a pile for statements you tend to disagree with, a pile for cards you tend to agree with, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or press 1, 2, 3 on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom left corner.</item>
+  <item id="step1Head">Steg 1 av 5</item>
+  <item id="step1Text">Les de kommende utsagnene nøye og del dem opp i tre hauger: En haug for de utsagnene som er minst lik deg, en haug for de utsagnene som er mest lik deg, og en haug for resten.{br}{br}Du kan enten dra utsagnene inn i hver haug eller trykke 1, 2, 3 på tastaturet. Det mulig å gjøre forandringer senere.{br}{br}Hvis du vil lese instruksene en gang til kan du trykke på hjelp-knappen.</item>
 
   <!-- step2: sorting (leave blank to skip popup) -->
-  <item id="step2Head">Step 2 of 5</item>
-  <item id="step2Text">Take the cards from the "AGREE"-pile and read them again. You can scroll through the statements by using the scroll bar. Next, select the two statements you most agree with and place them on right side of the score sheet below the "+2".{br}{br}Now read the cards in the "DISAGREE"-pile again. Just like before, select the two statements you most disagree with and place them on the left side of the score sheet below the "-2".{br}{br}Next, select the statements you second most agree/disagree with and place them under "+1"/"-1". Follow this procedure for all cards in the "AGREE"- and "DIAGREE"-pile.{br}{br}Finally, read the "NEUTRAL"-cards again and arange them in the remaining open boxes of the score sheet.</item>
+  <item id="step2Head">Steg 2 av 5</item>
+  <item id="step2Text">Ta utsagnene fra mest lik meg-haugen og les dem igjen. Du kan scrolle deg gjennom utsagnene ved å bruke scroll. Neste steg er å velge ut ett utsagn som du er mest enig med, altså hva stemmer mest overens med din egen opplevelse av karriere, og plass den på høyre side av ruteskjemaet under "+5".{br}{br}Nå les utsagnene fra minst lik meg-haugen. Akkurat som før skal du velge ut ett utsagn som du er mest uenig i og plasserer den til venstre i ruteskjemaet "-5".{br}{br}Videre velger du de utsagnene som er minst og mest lik deg, og plasser dem på "-4" og "+4". Her er det altså to utsagn på "-4" og to utsagn på "+4". Følg prosedyren videre med alle utsagnene i "Mest lik meg-haugen" og "Minst lik meg-haugen.{br}{br}Tilslutt sitter du igjen med utsagnene fra nøytral-haugen. Les dem opp høyt og plasser dem inn i ruteskjemaet.</item>
 
   <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
-  <item id="step3Head">Step 3 of 5</item>
-  <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and shift cards if you want to.{br}{br}{i}Tip: This is an optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="step3Head">Steg 3 av 5</item>
+  <item id="step3Text">Nå har du plassert alle utsagnene i ruteskjemaet. Vennligst se over sorteringen. Hvis du vil kan du bytte plass på utsagnene.{br}{br}{i}Dette er siste mulighet til å forandre på sorteringen.{i}</item>
 
   <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
-  <item id="step4Head">Step 4 of 5</item>
-  <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+2" or "-2".{br}{br}{i}Tip: This is a optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="step4Head">Steg 4 av 5</item>
+  <item id="step4Text"> Vennligst forklar kort om hvorfor du har plassert disse to utsagnene ytterst, altså på "+5" or "-5".{br}{br}{i}Holder med et par setninger.{i}</item>
 
   <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
-  <item id="step5Head">Step 5 of 5</item>
-  <item id="step5Text">Finally, please answer the following questions regarding your background.{br}{br}{i}Tip: This is a optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="step5Head">Steg 5 av 5</item>
+  <item id="step5Text">Avslutningsvis ønskes det litt informasjon om din bakgrunn.{br}{br}{i}Informasjonen som du utgir blir kryptert og sikret på passordsikre utstyr, for mer informasjon ta kontakt eliseagaj@hotmail.com{i}</item>
 
   <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
   <item id="transferHead">Submit Data</item>
-  <item id="transferText">You've finished the survey. Please submit your data now.</item>
-  <item id="transferFailed">Data submission failed. Please try again or mail your results via email/post.</item>
+  <item id="transferText">Du er nå ferdig. Vennligst send inn den samlende dataen.</item>
+  <item id="transferFailed">Data insamlingen feilet. Vennligst send dataen på mail denne mailen eliseagaj@hotmail.com.</item>
   <item id="transferOk">Thank you for unsing FlashQ. We would appreciate if you could send us feeddback about this application (bugs, ideas, suggestion, etc.).{br}{br}Christian Hackert{br}{a href="http://www.hackert.biz/flashq" target="_blank"}{u}www.hackert.biz/flashq{/u}{/a}.{br}{br}You can now close your browser window.</item>
 
   <!-- send data via mail, only displayed if submitUrl is blank (see config-file) -->
@@ -95,7 +95,7 @@
   <item id="mailText">You can either submit your data either via email or post. In the former case you'll need an email client like Outlook, in the latter a printer.</item>
 
   <!-- e-mail-body -->
-  <item id="mailBody">Thank you for participating in our survey. Please do not modify the following text:</item>
+  <item id="mailBody">Tusen takk for deltagelsen. Om det dukker opp noen spørsmål eller man ønsker å trekke seg kan man ta kontakt på mail, eliseagaj@hotmail.com.</item>
 
   <!-- print out -->
   <item id="printoutText">Somebody{br}Some street 100{br}Some city{br}{br}Please send this printout to address mentioned above. Thanks for you help.</item>

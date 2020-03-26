@@ -15,7 +15,7 @@
 <config version="1.0" htmlParse="false">
 
   <!-- title of the study -->
-  <item id="studyTitle">Name of your study</item>
+  <item id="studyTitle">Karriereforstaaelse i et teknologisk samfunn</item>
 
   <!-- text-align property(left|right) -->
   <item id="textAlign">left</item>
@@ -46,27 +46,27 @@
   <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
   <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
   <item id="form">
-    <label>Age*</label>
-	<note>Please enter your year of birth (YYYY, eg. 1980).</note>
+    <label>Alder*</label>
+	<note>Vennligst skriv inn fødselsår (YYYY, eg. 1980).</note>
 	<input type="text" required="true" maxlength="4" restricted="0-9"></input>
 
-    <label>Gender*</label>
-	<note>Please select your gender.</note>
+    <label>Kjønn*</label>
+	<note>Vennligst velg kjønn.</note>
 	<input type="radio" required="true">female;male</input>
 
-    <label>Please answer the following questions.</label>
-	<input type="rating2" required="false" scale="Yes;No;">There's a car in my household;I own a car for myself</input>
+    <label>ennligst svar på følgende spørsmål.</label>
+	<input type="rating2" required="false" scale="Yes;No;">Jeg sorterte utsagn da jeg var rolig, og ga meg selv god tid til å lese hvert utsagn uforstyrret.</input>
 
-    <label>What kind of transportation do you use?</label>
-	<input type="checkbox" required="false">Car;Railroad;Bike</input>
+    <label>Jeg sorterte ut ifra mine erfaringer, og ikke det jeg tenker er det ideelle.</label>
+	<input type="checkbox" required="false">Ja;Nei;Usikker</input>
 
-    <label>What kind of transportation do you prefer?</label>
-	<input type="select" required="false">Car;Railroad;Bike</input>
+    <label>Hvilken sinnstilstand er passende for deg nå?</label>
+	<input type="select" required="false">Rolig;Stresset;Annet</input>
 
-    <label>Comments</label>
+    <label>Kommenter</label>
 	<input type="textarea" required="false"></input>
 
-    <note bg="false">All fields marked with an * are mandatory.</note>
+    <note bg="false">All steder merket med * må besvares.</note>
   </item>
 
   <!-- URL for data transmission via POST/GET (leave blank if not required) -->
@@ -75,5 +75,5 @@
   <item id="submitUrlMethod">post</item>
 
   <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
-  <item id="submitMail">yourdomain.com</item>
+  <item id="submitMail">eliseagaj@hotmail.com</item>
  </config>
